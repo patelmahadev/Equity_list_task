@@ -1,0 +1,17 @@
+Write notes about how you would debug here. 3_1.txt
+
+Debugging steps:-
+Access Logs: Firstly review server access logs to verify if the wire transfer request was received by the server. And verify that the timestamps in the logs correspond to the time that Dr. Horrible was supposed to send the wire.
+
+Error Logs: Check for any error logs or exceptions related to transaction processing or ledger updates.
+
+Database side: Check that the transaction data is accurate and that all required fields—such as the amount, sender, recipient, and timestamp—are filled in.
+and also check the transaction records for any possible irregularities or duplicate entries.
+
+Retry Mechanism: If there are intermittent issues with API connectivity, implement a retry mechanism with exponential backoff to ensure successful data retrieval.
+
+Transaction Status: Monitor the wire transfer transaction's status (finished, failed, pending, etc.) to ascertain its present status inside the system.
+
+Reproduce Issue: Attempt to reproduce the issue in a controlled environment (In Local machine or other ENV ) to isolate the root cause.
+
+These are the first several actions that spring to mind when I read the scenario, and there are many more ways to do that can be taken depending on the specific circumstances.

@@ -1,0 +1,44 @@
+Write notes about your proposal for Mission 2 here.
+
+Where do these flows live?
+solution:-
+
+         The user's account dashboard or profile settings should contain the deposit and withdrawal flows, making these crucial banking features easily accessible. Furthermore, the banking platform may have sections or pages that are especially designated for making and receiving cash withdrawals and deposits.
+
+
+How does the user discover them?
+solution:-
+
+        Clear labeling: Use concise and direct language like "Deposit Funds" and "Withdraw Funds" for buttons and sections.
+        Visual cues: Employ icons that universally represent deposit (e.g., arrow pointing upwards) and withdrawal (e.g., arrow pointing downwards).
+
+What information should we require? How can we simplify?
+solution:-
+
+        The information needed should be minimal and dependent on the chosen wether you want deposit/withdrawal method and there are Pre-populate fields with user's saved account details 
+        Deposit: Account number, routing number, amount
+        Withdraw: Account number, routing number, amount
+
+        Debit/credit card:
+        Deposit: Card number, expiration date, CVV, amount
+        Withdraw: Card number, expiration date, CVV, amount (sometimes additional verification)
+
+Are there any security concerns?
+solution:-
+        The most Implement mandatory Two-factor authentication for any deposit or withdrawal transaction.
+        Require users to confirm the amount and destination before finalizing.
+        Ensure a secure connection (HTTPS) for all financial transactions.
+        Encrypt all sensitive data transmission to protect user information from unauthorized access.
+
+
+Basic Wireframe example:
+
++-------------------+
+|  Account Dashboard |
++-------------------+
+| Available balance: $1  |
++-------------------+
+|  Deposit Funds    | (Button)
+|  Withdraw Funds   | (Button)
++-------------------+
+[Other account options...]

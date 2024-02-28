@@ -1,0 +1,16 @@
+Write your email to Dr. Horrible here.
+
+Reply Email to Dr. Horrible
+Subject: Fixing Missing Wire Transfer Problem
+
+I hope you're doing well!!
+Greetings, Dr. Horrible
+
+We appreciate you bringing this to our notice. We've found a technical issue in our system that caused the wire transfer for Startup X to not show up in your account after conducting a comprehensive investigation.
+
+Unfortunately, during the transaction history cleanup procedure, the $10,000 wire transfer was unintentionally filtered away even though it was actually received. We really regret any inconvenience that this has brought about.
+
+We've fixed the problem and added the wire transfer back to your account; it should now show up in your transaction history. In addition, we have taken steps to enhance the accuracy of our transaction records and stop such instances from happening again.
+
+Best regards,
+Customer Support Backend Team
